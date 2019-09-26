@@ -11,8 +11,8 @@ package exercise5;
  * @author ferolinma_cis21035
  */
 public class Shape {
-    String color;
-    boolean filled;
+    private String color;
+    private boolean filled;
 
     public Shape() {
         this.color = "green";

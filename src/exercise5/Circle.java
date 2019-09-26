@@ -11,7 +11,7 @@ import java.lang.Math;
  * @author ferolinma_cis21035
  */
 public class Circle extends Shape {
-    double radius;
+    private double radius;
     public Circle() {
         this.radius = 1.0;
     }
@@ -39,7 +39,7 @@ public class Circle extends Shape {
     }
     public String toString() {
         String stat;
-        if(this.filled==true){
+        if(isFilled()==true){
             stat = "filled";
         }else{
             stat = "not filled";
