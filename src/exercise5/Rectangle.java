@@ -39,6 +39,15 @@ public class Rectangle extends Shape {
     public double getLength() {
         return this.length;
     }
+    public double getArea() {
+        double area;
+        area = this.getWidth()*this.getLength(); 
+        return area;
+    }
+    public double getPerimeter (){
+        double perimeter = 2*this.length + 2*this.width;
+        return perimeter;
+    }
     public String toString() {
         return "A Rectangle with width = "+this.width+" and length = "+this.length+", which is a subclass of "+super.toString();
     }
